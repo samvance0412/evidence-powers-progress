@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence Forward | Making Evidence Work for Communities</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .gradient-bg {
+      background: linear-gradient(135deg, #0369a1 0%, #0891b2 100%);
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      transition: all 0.3s ease;
+    }
+    .testimonial-card {
+      background-color: #f8fafc;
+      border-left: 4px solid #0891b2;
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800 leading-normal">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-sm py-4">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <div class="flex items-center">
+        <div class="text-2xl font-bold text-cyan-700">
+          <span class="text-cyan-600">Evidence</span><span class="text-cyan-800">Forward</span>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#" class="text-gray-700 hover:text-cyan-600 transition">About</a>
+        <a href="#" class="text-gray-700 hover:text-cyan-600 transition">Services</a>
+        <a href="#" class="text-gray-700 hover:text-cyan-600 transition">Impact Stories</a>
+        <a href="#" class="text-gray-700 hover:text-cyan-600 transition">Insights</a>
+        <a href="#" class="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-md transition">Contact</a>
+      </div>
+      <div class="md:hidden flex items-center">
+        <button class="text-gray-700">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="gradient-bg py-20 text-white">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-10 md:mb-0">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+            Making evidence work for communities
+          </h1>
+          <p class="text-xl opacity-90 mb-8">
+            We translate complex research into practical solutions that drive real impact for government agencies and community organizations.
+          </p>
+          <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="#" class="bg-white text-cyan-700 hover:bg-gray-100 font-semibold py-3 px-6 rounded-md text-center transition">
+              Our Services
+            </a>
+            <a href="#" class="border-2 border-white text-white hover:bg-white hover:text-cyan-700 font-semibold py-3 px-6 rounded-md text-center transition">
+              See Our Work
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 md:pl-10">
+          <img src="/api/placeholder/600/400" alt="Evidence in action illustration" class="rounded-lg shadow-xl" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- What We Do Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">How We Help</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          We bridge the gap between complex research and practical implementation to create meaningful change.
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg shadow p-6 card-hover transition">
+          <div class="text-cyan-600 mb-4">
+            <i class="fas fa-chart-line text-4xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Evaluation & Research</h3>
+          <p class="text-gray-600 mb-4">
+            Design and implement evaluations that provide actionable insights for program improvement.
+          </p>
+          <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+            Learn more
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        
+        <!-- Service Card 2 -->
+        <div class="bg-white rounded-lg shadow p-6 card-hover transition">
+          <div class="text-cyan-600 mb-4">
+            <i class="fas fa-brain text-4xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Evidence Capacity Building</h3>
+          <p class="text-gray-600 mb-4">
+            Develop your organization's ability to use data and evidence for better decision-making.
+          </p>
+          <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+            Learn more
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        
+        <!-- Service Card 3 -->
+        <div class="bg-white rounded-lg shadow p-6 card-hover transition">
+          <div class="text-cyan-600 mb-4">
+            <i class="fas fa-bullhorn text-4xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Strategic Communication</h3>
+          <p class="text-gray-600 mb-4">
+            Transform complex findings into compelling stories that inspire action and engagement.
+          </p>
+          <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+            Learn more
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        
+        <!-- Service Card 4 -->
+        <div class="bg-white rounded-lg shadow p-6 card-hover transition">
+          <div class="text-cyan-600 mb-4">
+            <i class="fas fa-lightbulb text-4xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Government Innovation</h3>
+          <p class="text-gray-600 mb-4">
+            Design human-centered digital solutions that improve service delivery and outcomes.
+          </p>
+          <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+            Learn more
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Work -->
+  <section class="py-16">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-baseline mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4 md:mb-0">Featured Impact Stories</h2>
+        <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+          View all case studies
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Case Study 1 -->
+        <div class="bg-white rounded-lg shadow overflow-hidden card-hover transition">
+          <img src="/api/placeholder/400/250" alt="Digital enrollment system" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-cyan-600 font-semibold mb-2">Digital Innovation</div>
+            <h3 class="text-xl font-bold mb-2">Increasing SNAP E&T Enrollment Through Digital Solutions</h3>
+            <p class="text-gray-600 mb-4">
+              How a comprehensive digital strategy increased program awareness and enrollment for vulnerable populations.
+            </p>
+            <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+              Read case study
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Case Study 2 -->
+        <div class="bg-white rounded-lg shadow overflow-hidden card-hover transition">
+          <img src="/api/placeholder/400/250" alt="AI strategy development" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-cyan-600 font-semibold mb-2">Strategic Planning</div>
+            <h3 class="text-xl font-bold mb-2">Developing an AI Strategy for Human Services Agencies</h3>
+            <p class="text-gray-600 mb-4">
+              Creating an inclusive approach to AI implementation that centers equity and community needs.
+            </p>
+            <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+              Read case study
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Case Study 3 -->
+        <div class="bg-white rounded-lg shadow overflow-hidden card-hover transition">
+          <img src="/api/placeholder/400/250" alt="Disaster response planning" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-cyan-600 font-semibold mb-2">Evidence Synthesis</div>
+            <h3 class="text-xl font-bold mb-2">Human Service Needs During Disaster Displacement</h3>
+            <p class="text-gray-600 mb-4">
+              Translating complex research into actionable guidance for emergency preparedness agencies.
+            </p>
+            <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+              Read case study
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">What Our Partners Say</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          We work collaboratively with government agencies and community organizations to create meaningful change.
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card p-6 rounded-lg">
+          <div class="flex items-center mb-4">
+            <div class="text-cyan-600 mr-4">
+              <i class="fas fa-quote-left text-3xl"></i>
+            </div>
+            <div>
+              <div class="font-bold">Sarah Johnson</div>
+              <div class="text-sm text-gray-600">Director, State Department of Human Services</div>
+            </div>
+          </div>
+          <p class="text-gray-700 italic">
+            "The ability to translate complex research findings into actionable insights that our team could implement immediately was invaluable. Our program enrollment increased by 32% after implementing the recommended changes."
+          </p>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card p-6 rounded-lg">
+          <div class="flex items-center mb-4">
+            <div class="text-cyan-600 mr-4">
+              <i class="fas fa-quote-left text-3xl"></i>
+            </div>
+            <div>
+              <div class="font-bold">Marcus Thompson</div>
+              <div class="text-sm text-gray-600">Executive Director, Community Alliance</div>
+            </div>
+          </div>
+          <p class="text-gray-700 italic">
+            "Working with Evidence Forward transformed how our organization approaches data and evidence. We now have the tools and capacity to measure our impact effectively and make data-driven decisions."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Insights -->
+  <section class="py-16">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-baseline mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4 md:mb-0">Latest Insights</h2>
+        <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+          View all articles
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Blog Post 1 -->
+        <div class="bg-white rounded-lg shadow overflow-hidden card-hover transition">
+          <img src="/api/placeholder/400/250" alt="Data visualization" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-gray-500 mb-2">March 12, 2025</div>
+            <h3 class="text-xl font-bold mb-2">5 Strategies for Making Data More Accessible to Decision-Makers</h3>
+            <p class="text-gray-600 mb-4">
+              Simple techniques to transform complex data into insights that drive action.
+            </p>
+            <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+              Read article
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Blog Post 2 -->
+        <div class="bg-white rounded-lg shadow overflow-hidden card-hover transition">
+          <img src="/api/placeholder/400/250" alt="Community engagement" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-gray-500 mb-2">February 28, 2025</div>
+            <h3 class="text-xl font-bold mb-2">Beyond Surveys: Participatory Methods for Community Engagement</h3>
+            <p class="text-gray-600 mb-4">
+              How to meaningfully involve communities in program design and evaluation.
+            </p>
+            <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+              Read article
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Blog Post 3 -->
+        <div class="bg-white rounded-lg shadow overflow-hidden card-hover transition">
+          <img src="/api/placeholder/400/250" alt="AI ethics" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-gray-500 mb-2">February 15, 2025</div>
+            <h3 class="text-xl font-bold mb-2">Ethical AI Implementation in Human Services: A Framework</h3>
+            <p class="text-gray-600 mb-4">
+              Practical guidelines for responsible AI adoption in public sector programs.
+            </p>
+            <a href="#" class="text-cyan-600 hover:text-cyan-800 font-medium inline-flex items-center">
+              Read article
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="gradient-bg py-16 text-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4">Ready to make evidence work for your community?</h2>
+      <p class="text-xl opacity-90 mb-8 max-w-3xl mx-auto">
+        Let's collaborate to design evidence-based solutions that create real impact for the communities you serve.
+      </p>
+      <a href="#" class="bg-white text-cyan-700 hover:bg-gray-100 font-semibold py-3 px-8 rounded-md inline-block transition">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white pt-12 pb-8">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/4 mb-8">
+          <div class="text-2xl font-bold mb-4">
+            <span class="text-cyan-400">Evidence</span><span class="text-white">Forward</span>
+          </div>
+          <p class="text-gray-400 mb-4">
+            Making evidence work for communities through accessible, impactful solutions.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <i class="fab fa-twitter text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <i class="fas fa-envelope text-xl"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="w-full md:w-1/4 mb-8">
+          <h3 class="text-lg font-semibold mb-4">Services</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Evaluation & Research</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Evidence Capacity Building</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Strategic Communication</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Government Innovation</a></li>
+          </ul>
+        </div>
+        
+        <div class="w-full md:w-1/4 mb-8">
+          <h3 class="text-lg font-semibold mb-4">Resources</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Case Studies</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Resource Library</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Newsletter</a></li>
+          </ul>
+        </div>
+        
+        <div class="w-full md:w-1/4 mb-8">
+          <h3 class="text-lg font-semibold mb-4">Contact</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li>Chicago, IL</li>
+            <li>sam@evidenceforward.com</li>
+            <li>(843) 864-9524</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-700 mt-8 pt-8 text-sm text-gray-500 text-center">
+        <p>&copy; 2025 Evidence Forward LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
